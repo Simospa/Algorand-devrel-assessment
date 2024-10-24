@@ -1,22 +1,26 @@
-# devrel_assessment
+# AlgoKit Project Submission
 
-Welcome to your new AlgoKit project!
+## Overview
 
-This is your workspace root. A `workspace` in AlgoKit is an orchestrated collection of standalone projects (backends, smart contracts, frontend apps and etc).
+This repository contains the following components as part of the project submission:
 
-By default, `projects_root_path` parameter is set to `projects`. Which instructs AlgoKit CLI to create a new directory under `projects` directory when new project is instantiated via `algokit init` at the root of the workspace.
+## 1. Smart Contract and Deployment Script
+The modified smart contract that interacts with Algorand box storage.
+A deploy script that calls the contract, passing my name as a parameter.
 
-## Getting Started
+## 2. Lora Explorer Screenshots
+   
+The app call transaction.
+![Screenshot 2024-10-24 at 19 35 10](https://github.com/user-attachments/assets/1295121f-32f1-4c79-9400-5794c1e48f36)
 
-To get started refer to `README.md` files in respective sub-projects in the `projects` directory.
+The smart contract's box storage data.
+![Screenshot 2024-10-24 at 19 34 51](https://github.com/user-attachments/assets/496a2dd4-2480-45ef-b795-416225d4f014)
 
-To learn more about algokit, visit [documentation](https://github.com/algorandfoundation/algokit-cli/blob/main/docs/algokit.md).
+## 3. Optional Additions
 
-### GitHub Codespaces
+Lora link to the Testnet application: https://lora.algokit.io/testnet/application/727099807
 
-To get started execute:
 
-1. `algokit generate devcontainer` - invoking this command from the root of this repository will create a `devcontainer.json` file with all the configuration needed to run this project in a GitHub codespace. [Run the repository inside a codespace](https://docs.github.com/en/codespaces/getting-started/quickstart) to get started.
-2. `algokit init` - invoke this command inside a github codespace to launch an interactive wizard to guide you through the process of creating a new AlgoKit project
 
-Powered by [Copier templates](https://copier.readthedocs.io/en/stable/).
+
+
